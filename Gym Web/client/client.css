@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oxygen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: greenyellow; */
+    background-image: url("cliback.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Oxygen', sans-serif;
+}
+.wrapper{
+    margin-top: 10%;
+}
+.wrapper h1{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    margin-bottom: 60px;
+    color: #fbff00;
+    text-align: center;
+}
+.client{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.client .client_member{
+    background: rgba(0, 0, 0, 0.699);
+    border-radius: 20px;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #7efff9;
+    position: relative;
+}
+.client .client_member h3{
+    color: #eeff00;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.client .client_member p.role{
+    color: rgb(0, 81, 255);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 12px 0px;
+}
+.client .client_member .client_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #fff;
+}
+.client .client_member .client_img img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}

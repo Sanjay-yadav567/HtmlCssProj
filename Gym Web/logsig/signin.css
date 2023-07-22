@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background: url(sigbac.jpg); */
+    background: #000;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.form-box{
+    width: 350px;
+    box-shadow: 0 0 10px 0 #000;
+    margin: 100px auto;
+    background: #fff;
+    padding: 50px 25px;
+}
+input{
+    width: 95%;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #999;
+    padding: 0px 0px 0px 20px;
+}
+.input-group{
+    margin: 20px auto;
+    position: relative;
+}
+label{
+    position: absolute;
+    top: -7px;
+    left: 20px;
+    background: #fff;
+    padding: 0 5px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    background: #ff1000;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+button:hover{
+    background: #000;
+    transition: o.5;
+}
+h2{
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 0 10px 0 #000;
+    margin: -80px auto 30px;
+    height: 40px;
+    padding-top: 16px;
+    border-radius: 30px;
+    background: #fff;
+    font-weight: 400;
+}
+p{
+    text-align: center;
+    margin: 30px auto;
+}
+
+.fa{
+    margin: 6px;
+    padding: 10px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+}
+.fa:hover {
+    opacity: 0.9;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google{
+    background: red;
+    color: white;
+}
+.fa-linkedin{
+    background: #053c66;
+    color: white;
+}
